@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+// Test case for GetPrimes
 func TestGetPrimes(t *testing.T) {
 	cases := []struct {
 		in   int
