@@ -10,6 +10,7 @@ func TestGetPrimes(t *testing.T) {
 		want []int
 	}{
 		{1, nil},
+		{0, nil},
 		{-1, nil},
 		{2, []int{2}},
 		{3, []int{2, 3}},
