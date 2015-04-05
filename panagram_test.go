@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+// Test for Panagram function
 func TestPanagram(t *testing.T) {
 	cases := []struct {
 		in   string
@@ -11,6 +12,7 @@ func TestPanagram(t *testing.T) {
 	}{
 		{"abcdefghijklmnopqrstuvwxy", "z"},
 		{"abcdefghijklmnopqrstuvwxyz", ""},
+		{"bcdefghijklmnopqrtuvxyz", "asw"},
 		{"xyz", "abcdefghijklmnopqrstuvw"},
 		{"A quick brown fox jumps over the lazy dog", ""},
 		{"A slow yellow fox crawls under the proactive dog", "bjkmqz"},
