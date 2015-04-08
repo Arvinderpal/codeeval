@@ -7,6 +7,7 @@ import (
 
 type CharSeq []rune
 
+// These functions are for sort.Sort()
 func (a CharSeq) Len() int           { return len(a) }
 func (a CharSeq) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a CharSeq) Less(i, j int) bool { return a[i] < a[j] }
