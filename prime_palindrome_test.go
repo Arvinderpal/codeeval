@@ -45,7 +45,7 @@ func TestCheckpalindrom(t *testing.T) {
 	for _, c := range cases {
 		got := Checkpalindrom(c.in)
 		if got != c.want {
-			t.Errorf("Checkpalindrom(%q) == %q, want %q", c.in, got, c.want)
+			t.Errorf("Checkpalindrom(%v) == %v, want %v\n", c.in, got, c.want)
 		}
 	}
 }

@@ -61,7 +61,7 @@ func TestCheckprime_naive(t *testing.T) {
 	for _, c := range cases {
 		got := Checkprime_naive(c.in)
 		if got != c.want {
-			t.Errorf("Checkprime_naive(%v) == %q, want %q", c.in, got, c.want)
+			t.Errorf("Checkprime_naive(%v) == %v, want %v\n", c.in, got, c.want)
 		}
 	}
 }
